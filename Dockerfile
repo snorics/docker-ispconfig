@@ -18,9 +18,9 @@
 # https://www.howtoforge.com/tutorial/perfect-server-debian-8-jessie-apache-bind-dovecot-ispconfig-3/
 #
 
-FROM debian:stretch-slim
+FROM debian:buster-slim
 
-MAINTAINER Jeremie Robert <appydo@gmail.com> version: 0.2
+MAINTAINER Sorin Gheorghe <snorics@gmail.com> version: 0.1
 
 # Let the container know that there is no tty
 ENV DEBIAN_FRONTEND noninteractive
